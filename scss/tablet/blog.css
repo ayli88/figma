@@ -1,0 +1,19 @@
+.blog {
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  justify-content: center;
+  .page {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(3,auto);
+    gap: 15px;
+    span {
+      display: inline-block;
+    }
+    svg {
+      display: inline-block;
+    }
+  }
+}

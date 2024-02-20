@@ -1,0 +1,83 @@
+.clients {
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: 35% 65%; */
+  width: 100%;
+  /* height: 506px; */
+  background: var(--Grey, #f4f6fc);
+  padding: 100px 160px;
+  margin-bottom: 128px;
+}
+.clients .saying {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.clients .saying h3 {
+  /* width: 327px; */
+  color: #282938;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 147.368% */
+}
+.clients .saying p {
+  color: var(--Dark-blue, #282938);
+  width: 327px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.clients .comment {
+  flex-grow: 2;
+  height: 250px;
+  row-gap: 39.91px;
+}
+.clients .comment h5 {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 48px; 150% */
+  opacity: unset;
+}
+.clients .comment .sub {
+  display: flex;
+  -moz-column-gap: 485px;
+       column-gap: 485px;
+  margin-top: 10px;
+}
+.clients .comment .sub .profile {
+  display: flex;
+  -moz-column-gap: 9.63px;
+       column-gap: 9.63px;
+}
+.clients .comment .sub .profile .cap {
+  display: flex;
+  flex-direction: column;
+}
+.clients .comment .sub label {
+  width: 183px;
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.clients .comment .sub label caption {
+  width: 183px;
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 233.333% */
+}/*# sourceMappingURL=clients.css.map */

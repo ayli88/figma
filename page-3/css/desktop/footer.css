@@ -1,0 +1,116 @@
+footer {
+  width: 1600px;
+  height: 489px;
+  background-color: #1c1e53;
+  position: relative;
+  display: flex;
+
+  .content {
+    width: 1058px;
+    height: 206px;
+    top: 96px;
+    left: 160px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    background-color: #1c1e53;
+    .left {
+      top: 96px;
+      left: 160px;
+
+      img {
+        width: 160px;
+        height: 32.41px;
+        top: 104px;
+        left: 159px;
+      }
+      p {
+        margin-top: 23.59px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 399px;
+        color: #ffffff;
+        opacity: 80%;
+      }
+    }
+
+    .right {
+      top: 96px;
+      right: 382px;
+
+      h2 {
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 64px;
+        text-align: left;
+        color: #ffffff;
+      }
+      p {
+        width: 399px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        opacity: 80%;
+        color: #f4f6fc;
+      }
+      .social {
+        width: 144px;
+        height: 16px;
+        top: 286px;
+        left: 819px;
+        margin-top: 28px;
+        display: flex;
+        gap: 26.67px;
+
+        img {
+          width: 16px;
+          height: 16px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .contact {
+    width: 517px;
+    height: 95px;
+    background-color: #fcd980;
+    position: absolute;
+    top: 302px;
+    left: 160px;
+    padding: 18px 137px 17px 37px;
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+      .left,
+      .right {
+        div {
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 32px;
+          text-align: left;
+          color: #282938;
+        }
+        span {
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 28px;
+          text-align: left;
+          color: #282938;
+          opacity: 80%;
+        }
+      }
+    }
+  }
+}

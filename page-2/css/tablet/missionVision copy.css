@@ -1,0 +1,49 @@
+.mission-vision {
+  width: 100%;
+  height: 1022px;
+  background-color: #eef4fa;
+  margin-top: 128px;
+  padding-top: 128px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  box-sizing: border-box;
+  .mission,
+  .vision {
+    width: 80%;
+    height: 336px;
+    /* margin-left: 160px; */
+    display: flex;
+    flex-direction: column;
+    gap: px;
+    justify-content: space-between;
+    .content {
+      span {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+      }
+      h3 {
+        font-family: Poppins;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 56px;
+        text-align: left;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        opacity: 0.7;
+        text-align: left;
+      }
+    }
+    img {
+      width: 515px;
+      height: 336px;
+    }
+  }
+}

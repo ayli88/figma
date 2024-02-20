@@ -1,0 +1,56 @@
+.hero {
+  width: 1280px;
+  height: 336px;
+  margin-top: 128px;
+  margin-left: 160px;
+  display: grid;
+  grid-template-columns: 595px 547px;
+  gap: 138px;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      width: 419px;
+      height: 32px;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: left;
+      color: #282938;
+      text-transform: capitalize;
+    }
+
+    h1 {
+      width: 595px;
+      height: 148px;
+      margin-top: 8px;
+      font-family: Poppins;
+      font-size: 54px;
+      font-weight: 600;
+      line-height: 74px;
+      text-align: left;
+      color: #282938;
+    }
+    p {
+      width: 484px;
+      height: 84px;
+      margin-top: 31px;
+      opacity: 0.7px;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: justified;
+      color: #282938;
+    }
+  }
+
+  img {
+    width: 547px;
+    height: 336px;
+    object-fit: cover;
+  }
+}

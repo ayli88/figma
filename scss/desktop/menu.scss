@@ -1,0 +1,53 @@
+.navbar {
+  width: 1600px;
+  height: 92px;
+  padding: 1px;
+  display: flex;
+  .logo {
+    margin: 33px 452px 34.29px 160px;
+    width: 122px;
+    height: 24.709px;
+  }
+
+  nav {
+    width: 1600px;
+    height: 92px;
+    display: flex;
+    gap: 32px;
+
+    .option {
+      a {
+        margin-top: 32.04px;
+        width: auto;
+        display: inline-block;
+        color: #bbbbcb;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 175% */
+        text-decoration: none;
+      }
+    }
+
+    .active a {
+      color: #fff;
+    }
+
+    .contact  {
+      text-align: center;
+      width: 185px;
+      height: 60px;
+      line-height: 60px;
+      margin-top: 16px;
+      border-radius: 41px;
+      vertical-align: middle;
+      border: 2px solid rgba(244, 246, 252, 0.2);
+      a{
+        text-align: center;
+        display: inline-block;
+        margin-top: 16px;
+      }
+    }
+  }
+}

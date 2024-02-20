@@ -1,0 +1,16 @@
+.blog {
+  display: grid;
+  grid-template-columns: repeat(3, 405px);
+  grid-template-rows: repeat(1, 609px);
+  justify-content: center;
+  gap: 32px;
+  justify-content: center;
+  .page {
+    span {
+      display: inline-block;
+    }
+    svg {
+      display: inline-block;
+    }
+  }
+}

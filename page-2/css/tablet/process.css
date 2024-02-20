@@ -1,0 +1,50 @@
+.process {
+  width: 80%;
+  height: 268px;
+  margin-top: 128px;
+  margin-left: 100px;
+
+  h2 {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+    margin-bottom: 48px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    /* grid-template-rows: repeat(2, 50%); */
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    .card {
+      overflow: hidden;
+      img {
+        width: 70%;
+      }
+      h6 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #282938;
+      }
+      p {
+        font-family: Poppins;
+        width: 90%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        opacity: 0.7;
+        color: #282938;
+
+        text-align: left;
+      }
+    }
+  }
+}

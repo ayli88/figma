@@ -1,0 +1,12 @@
+.form {
+  .forms {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    .inputs {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

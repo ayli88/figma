@@ -1,0 +1,13 @@
+.form {
+  .forms {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 102px 102px 138px;
+    gap: 32px;
+
+    .inputs {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

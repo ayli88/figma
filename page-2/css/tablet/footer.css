@@ -1,0 +1,125 @@
+footer {
+    width: 100%;
+    height: 489px;
+    background-color: #1c1e53;
+    position: relative;
+    display: flex;
+  
+    .content {
+      width: 66%;
+      height: 206px;
+      top: 96px;
+      left: 20px;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+        margin-bottom: 10px;
+      background-color: #1c1e53;
+      .left {
+        width: 80%;
+        top: 96px;
+  
+        img {
+          width: 160px;
+          height: 32.41px;
+          top: 104px;
+          left: 159px;
+        }
+        p {
+          margin-top: 23.59px;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 28px;
+          letter-spacing: 0em;
+          text-align: left;
+          width: 80%;
+          color: #ffffff;
+          opacity: 80%;
+        }
+      }
+  
+      .right {
+        width: 80%;
+        top: -10px;
+        left: 240px;
+        position: absolute;
+  
+        h2 {
+            width: 100%;
+          font-family: Poppins;
+          font-size: 36px;
+          font-weight: 600;
+          line-height: 64px;
+          text-align: left;
+          color: #ffffff;
+        }
+        p {
+          width: 80%;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 28px;
+          text-align: left;
+          opacity: 80%;
+          color: #f4f6fc;
+        }
+        .social {
+          width: 144px;
+          height: 16px;
+          top: 275px;
+          left: 819px;
+          margin-top: 17px;
+          margin-bottom: 17px;
+          display: flex;
+          gap: 26.67px;
+  
+          img {
+            width: 16px;
+            height: 16px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  
+    .contact {
+      width: 80%;
+      height: 95px;
+      background-color: #fcd980;
+      position: absolute;
+      top: 357px;
+      left: 40px;
+      padding: 18px 107px 17px 28px;
+  
+      .info {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        .left,
+        .right {
+          div {
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 32px;
+            width: 100%;
+            text-wrap: nowrap;
+            text-align: left;
+            color: #282938;
+          }
+          span {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            text-align: left;
+            color: #282938;
+            text-wrap: nowrap;
+            opacity: 80%;
+          }
+        }
+      }
+    }
+  }
+  

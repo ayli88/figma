@@ -1,0 +1,12 @@
+{
+  "name": "page-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tailwindcss -i ./css/tailwind/tailwind.css -o ./css/tailwind/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

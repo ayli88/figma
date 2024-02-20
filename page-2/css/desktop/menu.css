@@ -1,0 +1,61 @@
+.navbar {
+  width: 1600px;
+  height: 92px;
+  background-color: #1c1e53;
+
+  img {
+    width: 122px;
+    height: 24.71px;
+    position: relative;
+    top: 33px;
+    left: 160px;
+  }
+
+  .menu {
+    display: flex;
+    gap: 32px;
+
+    .option {
+      a {
+        margin-top: 33px;
+        width: 72px;
+        height: 29.91px;
+        text-transform: capitalize;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        color: #bbbbcb;
+      }
+    }
+    .active {
+      a {
+        margin-left: 734px;
+        width: 48px;
+        height: 29.91px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+      }
+    }
+    .btn {
+      text-transform: capitalize;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 60px;
+      text-align: center;
+      color: #bbbbcb;
+      width: 185px;
+      height: 60px;
+      margin-top: -17px;
+      border-radius: 41px;
+      border: 2px solid #f4f6fc33;
+    }
+  }
+}
