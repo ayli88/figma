@@ -1,47 +1,73 @@
 .navbar {
-  width: 1600px;
+  width: 100%;
   height: 92px;
-  padding: 1px;
+  background-color: #1c1e53;
   display: flex;
+  justify-content: space-around;
+  /* gap: 15%; */
+
+  .logo {
+    /* width: 30%; */
+    flex-grow: 2;
+    img {
+      width: 122px;
+      height: 24.71px;
+      position: relative;
+      top: 40%;
+      left: 25%;
+    }
+  }
+
+  nav {
+    flex-grow: 4;
+    /* width: 50%; */
+    top: 40%;
+    position: relative;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 5%;
+    /* margin-left: 50%; */
+
+    .option {
+      text-wrap: nowrap;
+      a {
+        margin-top: 33px;
+        width: 72px;
+        height: 29.91px;
+        text-transform: capitalize;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        color: #bbbbcb;
+      }
+    }
+    .active {
+      a {
+        width: 48px;
+        height: 29.91px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        color: #ffffff;
+      }
+    }
+    .btn {
+      text-transform: capitalize;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 60px;
+      text-align: center;
+      color: #bbbbcb;
+      width: 20%;
+      height: 60px;
+      margin-top: -17px;
+      border-radius: 41px;
+      border: 2px solid #f4f6fc33;
+    }
+  }
 }
-.navbar .logo {
-  margin: 33px 452px 34.29px 160px;
-  width: 122px;
-  height: 24.709px;
-}
-.navbar nav {
-  width: 1600px;
-  height: 92px;
-  display: flex;
-  gap: 32px;
-}
-.navbar nav .option a {
-  margin-top: 32.04px;
-  width: auto;
-  display: inline-block;
-  color: #bbbbcb;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px; /* 175% */
-  text-decoration: none;
-}
-.navbar nav .active a {
-  color: #fff;
-}
-.navbar nav .contact {
-  text-align: center;
-  width: 185px;
-  height: 60px;
-  line-height: 60px;
-  margin-top: 16px;
-  border-radius: 41px;
-  vertical-align: middle;
-  border: 2px solid rgba(244, 246, 252, 0.2);
-}
-.navbar nav .contact a {
-  text-align: center;
-  display: inline-block;
-  margin-top: 16px;
-}/*# sourceMappingURL=menu.css.map */

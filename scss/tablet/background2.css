@@ -15,6 +15,7 @@
 }
 .background2 .work h2 {
   margin-left: 10px;
+  width: fit-content;
   color: #282938;
   text-transform: capitalize;
   font-family: Poppins;
@@ -48,10 +49,11 @@
   line-height: 32px; /* 177.778% */
 }
 .background2 .options {
-  padding: 40px;
-  height: 405px;
+  padding: 20px;
+  box-sizing: border-box;
+  /* height: 405px; */
   display: grid;
-  grid-template-columns: repeat(2, 300px);
+  grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, 178px);
 }
 .background2 .options .sub {
@@ -63,7 +65,7 @@
   height: 50px;
 }
 .background2 .options .sub h5 {
-  width: 328px;
+  /* width: 328px; */
   color: var(--Dark-blue, #282938);
   font-family: Poppins;
   font-size: 32px;
@@ -72,7 +74,7 @@
   line-height: 48px; /* 150% */
 }
 .background2 .options .sub p {
-  width: 200px;
+  width: 150px;
   overflow: hidden;
   text-overflow: ellipsis;
   text-wrap: nowrap;
@@ -83,4 +85,4 @@
   font-weight: 400;
   line-height: 28px; /* 175% */
   opacity: 0.7;
-}/*# sourceMappingURL=background2.css.map */
+} /*# sourceMappingURL=background2.css.map */

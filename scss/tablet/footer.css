@@ -23,7 +23,7 @@ footer {
         width: 160px;
         height: 32.41px;
         top: 104px;
-        left: 159px;
+        left: 10%;
       }
       p {
         margin-top: 23.59px;
@@ -40,13 +40,13 @@ footer {
     }
 
     .right {
-      width: 80%;
+      width: 70%;
       top: -10px;
-      left: 240px;
+      left: 70%;
       position: absolute;
 
       h2 {
-        width: 100%;
+        width: fit-content;
         font-family: Poppins;
         font-size: 36px;
         font-weight: 600;

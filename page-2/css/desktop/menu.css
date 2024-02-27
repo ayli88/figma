@@ -1,21 +1,35 @@
 .navbar {
-  width: 1600px;
+  width: 100%;
   height: 92px;
   background-color: #1c1e53;
+  display: flex;
+  justify-content: space-around;
+  /* gap: 15%; */
 
-  img {
-    width: 122px;
-    height: 24.71px;
-    position: relative;
-    top: 33px;
-    left: 160px;
+  .logo {
+    /* width: 30%; */
+    flex-grow: 2;
+    img {
+      width: 122px;
+      height: 24.71px;
+      position: relative;
+      top: 40%;
+      left: 25%;
+    }
   }
 
   .menu {
+    flex-grow: 4;
+    /* width: 50%; */
+    top: 40%;
+    position: relative;
     display: flex;
-    gap: 32px;
+    /* flex-wrap: wrap; */
+    gap: 5%;
+    /* margin-left: 50%; */
 
     .option {
+      text-wrap: nowrap;
       a {
         margin-top: 33px;
         width: 72px;
@@ -31,14 +45,12 @@
     }
     .active {
       a {
-        margin-left: 734px;
         width: 48px;
         height: 29.91px;
         font-family: Poppins;
         font-size: 16px;
         font-weight: 500;
         line-height: 28px;
-        letter-spacing: 0em;
         text-align: left;
         color: #ffffff;
       }
@@ -51,7 +63,7 @@
       line-height: 60px;
       text-align: center;
       color: #bbbbcb;
-      width: 185px;
+      width: 20%;
       height: 60px;
       margin-top: -17px;
       border-radius: 41px;

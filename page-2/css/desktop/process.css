@@ -1,8 +1,8 @@
 .process {
-  width: 1280px;
+  width: 80%;
   height: 268px;
   margin-top: 128px;
-  margin-left: 160px;
+  margin-left: 10%;
 
   h2 {
     font-family: Poppins;

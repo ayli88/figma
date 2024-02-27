@@ -1,10 +1,10 @@
 .team {
-  width: 1600px;
+  width: 100%;
   height: 712px;
   background-color: #f4f6fc;
 
   h2 {
-    padding: 128px 160px;
+    padding: 5% 10%;
     text-align: center;
     font-family: Poppins;
     font-size: 48px;
@@ -16,14 +16,15 @@
   }
 
   .cards {
+    margin: auto;
     overflow: hidden;
     /* padding-left: 161px; */
-    width: 1280px;
+    width: 100%;
     height: 344px;
     display: flex;
-    gap: 32px;
+    gap: 2%;
     position: relative;
-    .cover {
+    /* .cover {
       width: 168px;
       height: 168px;
       background: linear-gradient(
@@ -42,21 +43,21 @@
         height: 13px;
         padding: 0px, 0px, 0.08px, 0px;
       }
-    }
+    } */
 
     .active {
-      margin-left: 170px;
+      margin-left: 10%;
     }
 
     .card {
-      width: 296px;
+      width: 20%;
       height: 344px;
       background-color: #ffffff;
       /* margin-left: 161px; */
 
       img {
-        width: 168px;
-        height: 168px;
+        width: 128px;
+        height: 128px;
         object-fit: cover;
         border-radius: 50%;
         margin: 48px auto 30px;

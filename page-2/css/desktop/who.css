@@ -1,9 +1,9 @@
 .who {
   background-color: #f4f5f5;
-  width: 1280px;
-  height: 716px;
+  width: 80%;
+  /* height: 716px; */
   margin-top: 128px;
-  margin-left: 160px;
+  margin-left: 10%;
   display: flex;
   row-gap: 80px;
   flex-direction: column;
@@ -14,13 +14,13 @@
   .explanation {
     margin: 0 auto;
     display: grid;
-    gap: 61px;
+    gap: 10%;
     grid-template-columns: 50% 50%;
-    width: 1092px;
-    height: 216px;
+    width: 80%;
+    /* height: 216px; */
 
     .goal {
-      margin-top: 80px;
+      margin-top: 15%;
       span {
         width: 95px;
         height: 28px;
@@ -57,7 +57,7 @@
       }
     }
     .improvment {
-      margin-top: 112px;
+      margin-top: 20%;
       h3 {
         font-family: Poppins;
         font-size: 38px;

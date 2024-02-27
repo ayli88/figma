@@ -1,5 +1,5 @@
 .features {
-  width: 1600px;
+  width: 100%;
   height: 1191px;
   background: var(--Grey, #f4f6fc);
   margin-top: 128px;
@@ -36,26 +36,26 @@
 }
 .features .bottom {
   display: grid;
-  grid-template-columns: repeat(3, 405px);
+  grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, 316px);
   row-gap: 24px;
   -moz-column-gap: 32px;
-       column-gap: 32px;
-  margin-left: 160px;
-  margin-right: 161px;
+  column-gap: 32px;
+  margin-left: 5%;
 }
 .features .bottom .box {
   display: flex;
+  /* width: 30%; */
   flex-direction: column;
-  gap: 12px;
-  margin-top: 47pxx;
+  gap: 5%;
+  margin-top: 47px;
 }
 .features .bottom .box svg {
   width: 32px;
   height: 27.921px;
 }
 .features .bottom .box h6 {
-  width: 314.748px;
+  width: 30%;
   color: var(--Dark-blue, #282938);
   font-family: Poppins;
   font-size: 24px;
@@ -64,7 +64,7 @@
   line-height: 36px; /* 150% */
 }
 .features .bottom .box p {
-  width: 324.079px;
+  width: 70%;
   color: var(--Dark-blue, #282938);
   font-family: Poppins;
   font-size: 16px;
@@ -72,4 +72,4 @@
   font-weight: 400;
   line-height: 28px; /* 175% */
   opacity: 0.7;
-}/*# sourceMappingURL=features.css.map */
+} /*# sourceMappingURL=features.css.map */

@@ -25,7 +25,7 @@
 }
 .clients .saying p {
   color: var(--Dark-blue, #282938);
-  width: 327px;
+  /* width: 327px; */
   opacity: 0.7;
   margin-bottom: 10px;
   font-family: Poppins;
@@ -36,7 +36,7 @@
 }
 .clients .comment {
   flex-grow: 2;
-  height: 250px;
+  /* height: 250px; */
   row-gap: 39.91px;
 }
 .clients .comment h5 {
@@ -51,13 +51,13 @@
 .clients .comment .sub {
   display: flex;
   -moz-column-gap: 485px;
-       column-gap: 485px;
+  column-gap: 485px;
   margin-top: 10px;
 }
 .clients .comment .sub .profile {
   display: flex;
   -moz-column-gap: 9.63px;
-       column-gap: 9.63px;
+  column-gap: 9.63px;
 }
 .clients .comment .sub .profile .cap {
   display: flex;
@@ -80,4 +80,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 233.333% */
-}/*# sourceMappingURL=clients.css.map */
+} /*# sourceMappingURL=clients.css.map */
