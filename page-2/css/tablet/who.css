@@ -3,7 +3,7 @@
   width: 80%;
   /* height: 716px; */
   margin-top: 128px;
-  margin-left: 100px;
+  margin-left: 10%;
   display: flex;
   row-gap: 80px;
   flex-direction: column;
@@ -35,7 +35,7 @@
       }
       h3 {
         /* width: 515px; */
-        height: 56px;
+        /* height: 56px; */
 
         font-family: Poppins;
         font-size: 38px;
